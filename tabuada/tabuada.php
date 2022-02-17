@@ -69,7 +69,7 @@
                         <a id="list" href="../media/media.php">Media</a>
                         <a id="list" href="../parimpar/parImpar.php">Par e ímpar</a>
                         <a id="list" href="../calculadora/calculadora.php">Calculadora</a>
-                        <a id="list" href="../inicio/index.php">Inicio</a>
+                        <a id="list" href="../inicio/index.html">Inicio</a>
                     </ul>
                 </li>   
                 <div class="home"><h1>Tabuada</h1></div>   
