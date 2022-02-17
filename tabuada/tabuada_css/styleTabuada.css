@@ -1,0 +1,15 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/fundo_tabuada.png);
+  background-color: rgba(0, 0, 0, 0.74);
+  background-size: cover;
+  background-position: right top;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+}
+
+ 
+

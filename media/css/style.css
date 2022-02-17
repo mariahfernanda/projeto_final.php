@@ -1,0 +1,11 @@
+body {
+    /* width: 90vw;
+    height: 100vh; */
+    background-image: url(../img/numeros3.png);
+    background-color: rgba(0, 0, 0, 0.623);
+    background-size: cover;
+    background-position: right top;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+  }
