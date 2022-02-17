@@ -1,5 +1,10 @@
+#divEstrutura{
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
 main{
-    position:relative;
     flex-grow: 1;
     display: flex;
     align-items: flex-start;

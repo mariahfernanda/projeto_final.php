@@ -2,90 +2,78 @@
     background-repeat: repeat;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
 }
-
-#tituloTabuada{
-    height: 800px;
-    width: inherit;
-    background-color: black;
-    font-size: 2em;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
 
 #divForm{
-    min-height: 800px;
-    width: 1000px;
-    border: solid 1px;
-    margin-left: auto;
-    margin-right: auto;
+    /* min-height: 800px; */
+    /* width: 1000px; */
+    /* margin-left: 100vh;
+    margin-right:100vw; */
+    padding-top: 100px;
 }
 .divLabel{
-    margin-top: 15px;
+    margin-top: 80px; 
 }
 .labels{
     font-size: 1.5em;
-    margin-left: 15px;
+
 }
 .selectLabel{
     width: 100px;
     height: 50px;
     font-size: 1.2em;
     text-align: center;
-}
+} 
 #botao{
     height: 50px;
-    width: 100px;
+    width: 110px;
     font-size: 1.5em;
     margin-left: 600px;
     color: black;
-    background-color: tomato;
+    background-color: salmon;
 }
 #divResultado{
     min-height: 300px;
     width: 500px;
-    background-color: gray;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
     /* margin: 15px; */
-    border: solid 1px;
     font-size: 1.4em;
 }
 #divPares{
-    background-color: brown;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
     min-height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    border: solid 1px black;
+    border: solid 1px salmon;
 }
 #divImpares{
-    background-color: cornsilk;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
     min-height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    border: solid 1px black;
+    border: solid 1px salmon;
 }
 .divNumeros{
     display: flex;
     flex-grow: 1;
 }
 .qntdNumeros{
-    background-color:palevioletred;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    border: 2px solid salmon;
 }
 
 a{

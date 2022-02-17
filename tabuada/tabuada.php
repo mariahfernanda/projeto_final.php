@@ -53,12 +53,12 @@
     <link rel="stylesheet" href="./tabuada_css/resetTabuada.css">
     <link rel="stylesheet" href="./tabuada_css/mainTabuada.css">
     <link rel="stylesheet" href="./tabuada_css/headerTabuada.css">
-    <!-- <link rel="stylesheet" href="./tabuada_css/style.css"> -->
+    <link rel="stylesheet" href="./tabuada_css/headerTabuada.css">
     <title>Tabuada</title>
 </head>
 <body>
 <div id="conteudo">
-<header id="titulo">
+        <header id="titulo">
         <nav class="menu">
             <ul class="dropdown-menu">                
                 <li>                  
@@ -66,17 +66,18 @@
                   
                     <ul class="dropdown-submenu">
                         <a id="list" href="../tabuada/tabuada.php">Tabuada</a>
-                        <a id="list" href="media.php">Media</a>
-                        <a id="list" href="">Par e ímpar</a>
-                        <a id="list" href="">Calculadora</a>
-                        <a id="list" href="../sit_php/index.php">Inicio</a>
+                        <a id="list" href="../media/media.php">Media</a>
+                        <a id="list" href="../parimpar/parImpar.php">Par e ímpar</a>
+                        <a id="list" href="../calculadora/calculadora.php">Calculadora</a>
+                        <a id="list" href="../inicio/index.php">Inicio</a>
                     </ul>
                 </li>   
-                <div class="home"><h1>Média</h1></div>   
+                <div class="home"><h1>Tabuada</h1></div>   
             </ul>        
         </nav>
         </div>
     </header>
+
 
     <main>
         
@@ -85,12 +86,12 @@
                 <div>
                     <form name="frmTabuada" method="POST" action="">
                         <div class="divLabel">
-                         <label class="labels">Multiplicando:  </label>
+                         <label class="labels">Multiplicador:    </label>
                          <input type="text" name="txtTabuada" maxlength="2" class="textoLabel">
                         </div>
                  
                         <div class="divLabel">
-                        <label class="labels">Multiplicador:   </label>
+                        <label class="labels">Multiplicando:   </label>
                         <input type="text" name="txtContador" maxlength="2" class="textoLabel">
                         </div> 
 

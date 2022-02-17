@@ -38,7 +38,8 @@ header{
 }
 .menu #home{
     display: flex;
-    align-self: center;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     text-decoration: none;
     color: white;

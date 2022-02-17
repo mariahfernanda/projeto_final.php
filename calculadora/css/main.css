@@ -1,0 +1,60 @@
+#alinhamentoCalculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+#divtextoCalculadora {
+    height: 70px;
+    background-color: black;
+    color: floralwhite;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+.caixatxt {
+    padding-top: 20px;
+    text-align: center;
+    height: 25px;
+    padding-bottom: 15px;
+}
+
+#parteinferior {
+    display: flex;
+    margin-top: 10px;
+}
+
+.bolinhas {
+    height: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#botao {
+    color: white;
+    background-color: salmon;
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#selecao {
+    flex-grow: 1;
+}
+
+#resultado {
+    width: 300px;
+    border: 1px solid salmon;
+    background-color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}

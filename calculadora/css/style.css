@@ -1,0 +1,45 @@
+
+
+body {
+    /* width: 90vw;
+    height: 100vh; */
+    background-image: url(../img/geometria.png);
+    background-color: rgba(0, 0, 0, 0.897);
+    background-size: cover;
+    background-position: right top;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+}
+
+#divHeader {
+    height: 120px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000c9;
+    color: #ffffff;
+}
+
+#estrutura {
+    width: 500px;
+    height: 305px;
+    border: solid 2px salmon;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.msgErro {
+    color: red;
+    height: 27px;
+    width: 600px;
+    background-color: azure;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    font-size: 20px;
+    display: block;
+}
