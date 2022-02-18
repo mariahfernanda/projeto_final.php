@@ -16,20 +16,29 @@
     margin-top: 80px; 
 }
 .labels{
-    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
 
 }
 .selectLabel{
-    width: 100px;
-    height: 50px;
+    display: flex;
+    width: 240px;
+    height: 40px;
     font-size: 1.2em;
     text-align: center;
 } 
 #botao{
+    display: flex;
     height: 50px;
     width: 110px;
     font-size: 1.5em;
-    margin-left: 600px;
+    margin-top: 40px;
+    margin-left: 200px;
+    justify-content: center;
+    justify-items: center;
     color: black;
     background-color: salmon;
 }

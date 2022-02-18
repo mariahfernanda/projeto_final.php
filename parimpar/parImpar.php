@@ -94,9 +94,7 @@
                             <option selected>Selecione um Número</option>
                             </option>
                         </select>
-                    </div>
-                    <input type="submit" value="Calcular" name="btnCalcular" id="botao">
-                    <div>
+
                         <label class="labels" >Número Final: </label>
                         <select name="slcFinal" class="selectLabel">
                             <option value="">
@@ -109,6 +107,9 @@
                             <option selected>Selecione um Número</option>
                             </option>
                         </select>
+                        </div>
+                    <input type="submit" value="Calcular" name="btnCalcular" id="botao">
+                    <div>
                     </div>
                 </form>
                 <div id="divResultado">

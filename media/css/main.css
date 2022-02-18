@@ -1,6 +1,20 @@
+#conteudo{
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
 #form{
-    padding-top: 250px;
-    padding-left: 780px;
+    display: flex;
+    width: auto;
+    height: 185px; 
+    /* padding-top: 200px;
+    padding-left: 200px; */
+    justify-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+
 
 }
 input{
@@ -8,15 +22,20 @@ input{
     margin-left: 10px;
 }
 #resultado{
-    /* width: inherit;
-    height: 35px;
-    background-color: rgb(255, 255, 255); */
+    display: flex;
+     /* width: inherit; */
+    /* height: 100px; */
     color: #ffffff;
-    padding-left: 780px;
+    /* padding-left: 680px; */
     padding-top: 20px;
     font-family: cursive;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 3rem;
+    /* font-weight: bold; */
+    text-align: center;
+    justify-content:center;
+    margin-top: 90px;
+   
+
 }
 #botaoReset{
     width: 100px;
