@@ -43,7 +43,7 @@
 
 ?>
 
-<html>
+<html lang="pt-br">
 
 <head>
     <title>Pares e Impares</title>
