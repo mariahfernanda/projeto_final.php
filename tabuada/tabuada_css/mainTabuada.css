@@ -40,7 +40,7 @@ main{
 
 
 #divResultado{
-    width: 200px;
+    width: 300px;
     min-height: 50px;
     display: flex;
     flex-direction: column;
